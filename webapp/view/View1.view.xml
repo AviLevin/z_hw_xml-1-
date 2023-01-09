@@ -1,0 +1,13 @@
+<mvc:View controllerName="hwz_hw_xml.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m"  >
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+					<Text text="Lorem ipsum dolor st a" />
+				
+					 <Button text="Upload" type="Accept" press="onUploadFile"/>
+				<content></content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
